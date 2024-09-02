@@ -78,6 +78,7 @@ This API provides a simple task management system with user authentication, task
 - A code editor (e.g., VSCode)
 - postgres database
 - mikroorm
+- database explorer (pgAdmin, DBeaver, or similar)
 
 ### 🔧 Installation
 
@@ -192,6 +193,18 @@ These improvements could significantly enhance the functionality and user experi
 If there had been more time available, I would have written tests to ensure the code's reliability and maintainability. I believe in Test-Driven Development (TDD), which emphasizes writing tests before the code itself. This approach helps to identify issues early and ensures that the code meets the required specifications.
 
 ## 🚀 Conclusion
+
+## ⚙️ environment variables
+- DB_HOST=localhost
+- DB_PORT=5432
+- DB_USER=postgres
+- DB_PASSWORD=server
+- DB_NAME=basicecommerce
+- API_VERSION=v1
+- ADMIN_EMAIL=admin@test.com
+- ADMIN_PASSWORD=admin123
+- DATABASE_URL=postgresql://${DB_HOST}:${DB_PORT}/${DB_NAME}
+- JWT_SECRET=ekw4jR34ARZJzDAbhP2speQVVbhK2Hun6wfHyERMRXmXcZey2hAqmpZz8Fjn5B8v
 
 Thank you for using the Basic E-Commerce System API! I hope this documentation has provided you with all the information you need to get started and effectively use the API. If you have any questions or need further assistance, feel free to reach out.
 
